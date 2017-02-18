@@ -1,0 +1,1 @@
+This is an HTML and CSS project to get a non-functional emulation of the Google homepage.
