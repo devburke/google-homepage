@@ -4,7 +4,7 @@
 }
 
 body {
-    background:white;
+    background: white;
     font: small Arial, sans-serif;
 }
 
@@ -41,9 +41,9 @@ li {
     width: 30px;
     background-image: url("sprite.png");
     background-size: 528px 68px;
-	background-position: -132px -38px;
-	opacity: .55;
-	vertical-align: middle;
+    background-position: -132px -38px;
+    opacity: .55;
+    vertical-align: middle;
 }
 
 #apps:hover {
@@ -51,7 +51,7 @@ li {
 }
 
 #signin a {
-    background: rgb(71,121,239);
+    background: rgb(71, 121, 239);
     border-radius: 3px;
     padding: .6em 1em;
     color: white;
@@ -78,44 +78,47 @@ form {
 
 input {
     outline: none;
-    font-size: 1em;
 }
 
 #search_box {
     font: 1.4em Arial;
     margin: 2em;
     padding: 0.5em;
-    width: 30em;
+    width:80%;
+    max-width: 30em;
     border: none;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     transition: .1s ease-in-out;
 }
 
-#search_box:hover, #search_box:focus {
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.16), 2px 2px 5px 3px rgba(0,0,0,0.08);
+#search_box:hover,
+#search_box:focus {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.16), 2px 2px 5px 3px rgba(0, 0, 0, 0.08);
 }
 
 #buttons input {
-    border: 1px solid rgb(244,244,244);
+    border: 1px solid rgb(244, 244, 244);
     border-radius: 3px;
     padding: 0.6em 1.2em;
     font-weight: bold;
-    color: rgb(117,117,117);
-    background: rgb(244,244,244);
+    font-size: 1em;
+    color: rgb(117, 117, 117);
+    background: rgb(244, 244, 244);
 }
 
-#buttons input:hover, #buttons input:focus {
-    border: 1px solid rgb(198,198,198);
-    color: rgb(34,34,34);
-    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.08)
+#buttons input:hover,
+#buttons input:focus {
+    border: 1px solid rgb(198, 198, 198);
+    color: rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08)
 }
 
 #footer {
-    width:100%;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    background: rgb(242,242,242);
-    border-top: 1px solid rgb(228,228,228);
+    background: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
 }
 
 #l_foot {
@@ -135,5 +138,5 @@ input {
 }
 
 #footer a {
-    color: rgb(102,102,102);
+    color: rgb(102, 102, 102);
 }
